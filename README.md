@@ -66,14 +66,14 @@ After saving your function, manually trigger it.
 
 Go to the EC2 dashboard and confirm that the instances' states have changed according to their tags.
 
-Solution:
+# Solution:
 
-Created two ec2 instances with tag - tag: Auto-Start and tag: Auto-Stop
-Made Sure that the instances are running
-Navigated to IAM, created a role, and attached AmazonEc2FullAccess
-Created a Lambda Function with Python 3. x and attached the role that was created.
-Wrote te code using boto3 module, and https://boto3.amazonaws.com/v1/documentation
-Manually tested the function
-The function is stopping the ec2 instance with the tag Auto-Stop and starting the instances with the tag Auto-Start
-Attached Screenshots
-Also, the code is well documented with comments.
+# Created two ec2 instances with tag - tag: Auto-Start and tag: Auto-Stop
+# Made Sure that the instances are running
+# Navigated to IAM, created a role, and attached AmazonEc2FullAccess
+# Created a Lambda Function with Python 3. x and attached the role that was created.
+# Wrote the code using boto3 module, and https://boto3.amazonaws.com/v1/documentation
+# Manually tested the function
+# The function is stopping the ec2 instance with the tag Auto-Stop and starting the instances with the tag Auto-Start
+# Attached Screenshots
+# Also, the code is well-documented with comments.
